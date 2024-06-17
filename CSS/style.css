@@ -1,0 +1,53 @@
+/* regole generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* regole pagina */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    height: 100vh;
+    background-color: #0e003f;
+    overflow: hidden;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin: 1.5em 0; 
+}
+
+#game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.cell {
+    width: calc(100% / 10);
+    height: 10%;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+#restart-button {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 1em 4em;
+    margin: 2em;
+    border-radius: 8px;
+    border: none;
+}
